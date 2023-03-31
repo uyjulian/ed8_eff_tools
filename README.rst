@@ -9,6 +9,12 @@ The tools are compatible with the PC versions of ED8, ED82, ED83, ED84, and ED85
 The tools are provided for research purposes, and are barely documented.  
 As such, please send patches to improve the tools (e.g. improving labeling, adding features, or adding documentation).
 
+Modding help and resources
+==========================
+
+See `Trails Research Group
+<https://github.com/Trails-Research-Group>`_ for more resources to assist in modding the game.  
+
 License
 =======
 
