@@ -46,7 +46,7 @@ def encode_array_nested_and_write_to_f(dic, ind, wf):
 try:
 	in_fn = sys.argv[1]
 	out_fn = sys.argv[2]
-	with open(in_fn, "r") as f, open(out_fn, "wb") as wf:
+	with open(in_fn, "r", encoding="utf-8") as f, open(out_fn, "wb") as wf:
 		eff_root = json.load(f)
 		ver = eff_root["version"]
 		if (ver >= 0x6A and ver <= 0x6D) or ver == 4:

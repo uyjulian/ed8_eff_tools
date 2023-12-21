@@ -299,7 +299,7 @@ try:
 		if ver <= 4:
 			pass # ???
 		eff_root["v310_list"] = v310_list
-		with open(out_fn, "w") as wf:
+		with open(out_fn, "w", encoding="utf-8") as wf:
 			json.dump(eff_root, wf, indent=True, ensure_ascii=False)
 except Exception as e:
 	print(sys.argv[1], "failed")
